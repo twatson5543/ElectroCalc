@@ -2,13 +2,13 @@
 import math
 
 # === Functions ===
-def LogictoList(UserInput):
+def LogicToList(UserInput):
     Listed = UserInput.split('+')
     return Listed
 
 def ListToStrings(Listed):
-    stringedList = (str(i) for i in Listed)
-    return stringedList
+    stringedList2 = Listed.split()
+    return stringedList2
 
 # === Steps ===
 
@@ -16,8 +16,9 @@ def ListToStrings(Listed):
 LogicInput = input("Type your Logic to Solve (A+BC or a+Bc):")
 
 # Seperate parts of logic to OR
-LogicList_1 = LogictoList(LogicInput)
+LogicList_1 = LogicToList(LogicInput)
 print(LogicList_1)
 
-StringedList = ListToStrings(LogicList_1)
+# ds
+StringedList = [ListToStrings(LogicList_1)]
 print(StringedList)
