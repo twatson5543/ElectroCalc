@@ -1,2 +1,2 @@
-python3 PowerFactor.py
+python main.py
 cmd /k
