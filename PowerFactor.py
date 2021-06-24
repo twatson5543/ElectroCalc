@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # === Libraries ===
 import math
 import os
@@ -193,7 +192,7 @@ print("Power Factor:",PowerFactor)
 
 input("Press Enter to continue...")
 exec(open("main.py").read())
-=======
+
 # === Libraries ===
 import math
 
@@ -382,4 +381,3 @@ print("Reactive Power (Q):", CorrectReactPower)
 # -- Power Factor --
 print("")
 print("Power Factor:",PowerFactor)
->>>>>>> 73783e05ba5da0194d32026294a7c0cbdae0561b

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # === Libraries ===
 import math
 import os
@@ -32,7 +31,7 @@ print(StringedList)
 # === End ===
 input("Press Enter to continue...")
 exec(open("main.py").read())
-=======
+
 # === Libraries ===
 import math
 
@@ -57,4 +56,3 @@ print(LogicList_1)
 # ds
 StringedList = [ListToStrings(LogicList_1)]
 print(StringedList)
->>>>>>> 73783e05ba5da0194d32026294a7c0cbdae0561b

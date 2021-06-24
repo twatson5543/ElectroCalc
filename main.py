@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import time
 import os
 
@@ -25,7 +24,7 @@ else:
     print("Incorrect Value")
     time.sleep(1)
     exec(open("main.py").read())
-=======
+
 # === Main ===
 
 print("")
@@ -41,4 +40,3 @@ elif SelectProgram == "2":
     exec(open("LogicSolver.py").read())
 else:
     print("Didn't Work")
->>>>>>> 73783e05ba5da0194d32026294a7c0cbdae0561b
